@@ -10,6 +10,7 @@ I turn raw blockchain data into clear answers: who stayed, who left, and what to
 |---|---|---|
 | [**ARB Airdrop**](https://github.com/NikitaOnchain/onchain-analytics-portfolio) | Did airdrop recipients keep their ARB? | 78.8% of 583K recipients moved ARB out within 24 hours. After 30 days, about 14% of claimed ARB was still held (balance proxy). |
 | [**Morpho DRIP**](https://github.com/NikitaOnchain/morpho-drip-retention) | Did an incentive campaign create lasting lending demand? | By day 180, only 7.7% (USDC) and 11.3% (USD₮0) of the borrowing uplift remained, while 63.8% of the borrower uplift stayed. |
+| [**DRIP Season 1, 180 days later**](https://github.com/NikitaOnchain/drip-s1-180d) | Which of the 6 DRIP lending protocols kept borrowing on Arbitrum? | Only Fluid stayed above its pre-campaign level (128%, vs 47% on Ethereum). Morpho kept about 5% of its campaign-end uplift. Quick check on DefiLlama data. |
 
 ## What I can do for you
 
@@ -27,7 +28,7 @@ I turn raw blockchain data into clear answers: who stayed, who left, and what to
 
 ## Tools
 
-SQL · BigQuery · Python (pandas, Plotly) · Jupyter · EVM / Arbitrum data
+SQL · BigQuery · Python (pandas, Plotly, matplotlib) · Jupyter · DefiLlama API · EVM / Arbitrum data
 
 ## Contact
 
